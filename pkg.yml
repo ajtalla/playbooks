@@ -1,6 +1,6 @@
 ---
 - name: Managing RPM packages
-  host: 10.219.39.129
+  hosts: 10.219.39.129
   roles:
   - pkg_install
 ...
