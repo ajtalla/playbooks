@@ -1,0 +1,6 @@
+---
+- name: Managing RPM packages
+  yum:
+     name: zsh
+     state: installed
+...
