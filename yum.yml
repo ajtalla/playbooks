@@ -1,0 +1,7 @@
+---
+- name: Package Installation
+  tasks:
+  - name: Apache installation
+    yum:
+     name: httpd
+     state: installed
