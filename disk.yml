@@ -4,4 +4,7 @@
   tasks:
   - name: Disk mounts
     shell: /bin/df -Th
+    register: diskstd
+  - debug:
+     var: diskstd
 ...    
