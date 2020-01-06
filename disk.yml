@@ -1,6 +1,6 @@
 ---
 - name: Getting mounts
-  hosts: bm15SS
+  hosts: Test
   tasks:
   - name: Disk mounts
     shell: /bin/df -Th
