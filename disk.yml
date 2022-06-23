@@ -3,7 +3,7 @@
   hosts: Test
   tasks:
   - name: Disk mounts
-    shell: /bin/df -Th
+    shell: /bin/df -T
     register: diskstd
   - debug:
      var: diskstd
