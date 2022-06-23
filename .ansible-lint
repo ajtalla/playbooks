@@ -33,8 +33,9 @@ loop_var_prefix: "{role}_"
 
 use_default_rules: true
 # Load custom rules from this specific folder
-# rulesdir:
+rulesdir:
 #   - ./rule/directory/
+  - ./rules/
 
 # This makes linter to fully ignore rules/tags listed below
 skip_list:
