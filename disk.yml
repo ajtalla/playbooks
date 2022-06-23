@@ -2,7 +2,7 @@
 - name: Getting mounts
   hosts: Test
   tasks:
-  names: Disk mounts
+  - name: DISK
     shell: /bin/df -T
     register: diskstd
   - debug:
