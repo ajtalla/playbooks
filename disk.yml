@@ -7,4 +7,10 @@
     register: diskstd
   - debug:
      var: diskstd
+     
+  - name: service start
+    service:
+      name: httpd
+      state: started
+      enabled: yes
 ...
