@@ -8,7 +8,7 @@
   - debug:
      var: diskstd
      
-  - name: service start
+  - name:
     service:
       name: httpd
       state: started
