@@ -1,0 +1,7 @@
+---
+- name: TEST
+  hosts: all
+  tasks:
+  - name:
+    command: cp /tmp/ /tmp/
+...  
