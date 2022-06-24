@@ -1,0 +1,16 @@
+---
+- name: Getting mounts
+  hosts: Test
+  tasks:
+  - name: DISK
+    shell: /bin/df -T
+    register: diskstd
+  - debug:
+     var: diskstd
+     
+  - name:
+    service:
+      name: httpd
+      state: started
+      enabled: no 
+...
