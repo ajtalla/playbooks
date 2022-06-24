@@ -16,7 +16,7 @@ jobs:
         with:
           override-deps: |
             ansible==2.9.0
-            ansible-lint==4.2.0
+            ansible-lint==5.0.1
         # optional:
         # with:
         #   path: "playbooks/"  # <-- only one value is allowed	
