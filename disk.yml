@@ -6,7 +6,7 @@
     shell: /bin/df -T
     register: diskstd
   - debug:
-     var: diskstd     
+     var: diskstd
   - name:
     service:
      name: httpd
