@@ -10,7 +10,7 @@ jobs:
       max-parallel: 4
       matrix:
         python-version: [3.7]
-        ansible-version: [2.7.13, 2.8.4]
+        ansible-version: [2.7.13]
 
     steps:
     - uses: actions/checkout@v1
