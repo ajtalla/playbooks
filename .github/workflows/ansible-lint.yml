@@ -19,4 +19,4 @@ jobs:
 #            ansible-lint==5.0.1
         # optional:
         # with:
-        #   path: "playbooks/"  # <-- only one value is allowed	
+        #   path: "playbooks/"  # <-- only one value is allowed
