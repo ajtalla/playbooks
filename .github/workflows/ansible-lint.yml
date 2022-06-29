@@ -23,6 +23,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install ansible-lint ansible==${{ matrix.ansible-version }}
     - name: Lint playbook
-      run: |
-        ansible-playbook site.yml --syntax-check
-        ansible-lint site.yml
+      uses: ansible-community/ansible-lint-action@main
