@@ -1,9 +1,0 @@
----
-- name: Managing RPM packages
-  gather_facts: false
-  hosts: 10.219.39.129
-  tasks:
-    - yum:
-       name: zsh
-       state: installed
-...
