@@ -5,7 +5,7 @@ skip_list:
 use_default_rules: true
 verbosity: 1
 rulesdir:
-   - ./rules/
+  - ./rules/
 exclude_paths:
   - ./roles/gcp_http_lb/
   - ./tests/
