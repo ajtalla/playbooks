@@ -28,5 +28,5 @@ jobs:
 #      - name: Lint playbook
 #        uses: ansible-community/ansible-lint-action@main
       - name: Super-Linter
-        uses: github/super-linter@v4.9.4
+        uses: github/super-linter
   
