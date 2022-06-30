@@ -4,6 +4,4 @@
   hosts: 10.219.39.129
   tasks:
   - name: Apache installation
-    yum:
-     name: httpd
-     state: installed
+    command: yum install httpd
