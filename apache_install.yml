@@ -1,9 +1,7 @@
----
   - hosts: apache
     sudo: yes
     tasks:
-      - name: install apache2
-        apt: name=apache2 update_cache=yes state=latest
+      - apt: name=apache2 update_cache=yes state=present
 
       - name: enabled mod_rewrite
         apache2_module: name=rewrite state=present
