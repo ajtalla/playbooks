@@ -1,0 +1,9 @@
+---
+- name: Package Installation
+  gather_facts: false
+  hosts: 10.219.39.129
+  tasks:
+  - name: Apache installation
+    yum:
+     name: httpd
+     state: installed
