@@ -1,5 +1,5 @@
 - hosts: apache
-  sudo: yes
+  sudo: true
   tasks:
     - apt: name=apache2 update_cache=yes state=present
 
