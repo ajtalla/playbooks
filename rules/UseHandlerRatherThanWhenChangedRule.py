@@ -20,7 +20,7 @@
 
 import six
 
-fromansiblelint.rulesimport AnsibleLintRule
+from ansiblelint.rules from import AnsibleLintRule
 
 
 def _changed_in_when(item):

@@ -1,4 +1,4 @@
-fromansiblelint.rulesimport AnsibleLintRule
+from ansiblelint.rules from import AnsibleLintRule
 try:
     from types import StringTypes
 except ImportError:
