@@ -20,7 +20,7 @@
 
 import re
 import six
-from ansiblelint.rules from import AnsibleLintRule
+from ansiblelint.rules import AnsibleLintRule
 
 
 class UsingBareVariablesIsDeprecatedRule(AnsibleLintRule):

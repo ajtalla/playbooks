@@ -18,7 +18,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-from ansiblelint.rules from import AnsibleLintRule
+from ansiblelint.rules import AnsibleLintRule
 import re
 
 
