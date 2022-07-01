@@ -1,4 +1,4 @@
-from ansiblelint import AnsibleLintRule
+fromansiblelint.rulesimport AnsibleLintRule
 
 
 class SudoRule(AnsibleLintRule):

@@ -20,7 +20,7 @@
 
 import os
 
-from ansiblelint import AnsibleLintRule
+fromansiblelint.rulesimport AnsibleLintRule
 try:
     from ansible.module_utils.parsing.convert_bool import boolean
 except ImportError:
