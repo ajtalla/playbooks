@@ -6,3 +6,4 @@
     shell: find /var/lib/awx/projects -name "*.yml" | xargs ansible-lint
     register: shellout
   - debug: "{{ shellout.stdout }}"
+
