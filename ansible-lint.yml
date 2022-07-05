@@ -1,0 +1,8 @@
+---
+- name: ansible-lint
+  hosts: localhost
+  tasks:
+  - name: shell command
+    shell: find /var/lib/awx/projects -name "*.yml" | xargs ansible-lint
+    register: shellout
+  - debug: "{{ shellout.stdout }}"
